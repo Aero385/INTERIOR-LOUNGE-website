@@ -12,7 +12,34 @@
 </head>
 <body>
     
-    <header></header>
+    
+  <header class="main-header">
+        <div class="wrapper">
+            <div class="main-header-wrapper">
+                <div class="main-header-logo-wrapper">
+                <a class="main-header-logo" href="#">
+                    <img src="../img/logo.svg" alt="logo">
+                </a>
+                </div>
+                <nav class="main-nav">
+                    <div class="menu-primary-container">
+                        <ul class="menu">
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#">Наши проекты</a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="#">Tomazzi Hall</a></li>
+                                    <li class="menu-item"><a href="#">Lounge Hall</a></li>
+                                    <li class="menu-item"><a href="#">Astra Hall</a></li>
+                                </ul>
+                              </li>
+                            <li class="menu-item current-menu-item"><a href="#">Контакты</a></li>
+                            <li class="menu-item menu-item-styled"><a href="#">Оставить отзыв</a></li>
+                        </ul>
+                      </div>
+                </nav>
+            </div>
+        </div>
+  </header>
 
     <main class="main-body">
         
@@ -38,11 +65,70 @@
         </section>
 
         <section class="form">
+            <div class="wrapper">
+                <h2 class="form-title">Оставить отзыв</h2>
+                <div class="form-form">
+                    <div class="wpcf7">
+                        <form action="" class="wpcf7-form">
+                            <p>
+                                <span class="wpcf7-form-control-wrap">
+                                    <textarea class="wpcf7-textarea" cols="40" rows="10" placeholder="Расскажите, что вы думаете о проекте"></textarea>
+                                </span>
+                            </p>
+                            <p>
+                                <span class="wpcf7-form-control-wrap">
+                                  <input type="text" size="40" class="wpcf7-text" placeholder="Ваше имя">
+                                </span>
+                            </p>
+                            <div class="form-submit-area">
+                                <p>
+                                    <input type="submit" value="Отправить" class="wpcf7-submit">
+                                    <span class="ajax-loader"></span>
+                                </p>
+                                <div class="form-text">
+                                    Отзыв будет добавлен после проверки модератором
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
 
         </section>
 
         <section class="reviews">
-
+            <div class="wrapper">
+                <div class="reviews-wrapper">
+                    <div class="review">
+                        <div class="review-image-wrapper">
+                            <img src="img/Ellipse-1.png" alt="first person" width="50px" height="50">
+                        </div> 
+                        <div class="review-info">
+                            <p class="review-name">Иван Грачев</p>
+                            <p class="review-text">Очень самобытный и необычный проект.</p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <div class="review-image-wrapper">
+                            <img src="img/Ellipse-2.png" alt="second person" width="50px" height="50">
+                        </div> 
+                        <div class="review-info">
+                            <p class="review-name">Мария Рачинская</p>
+                            <p class="review-text">Мне особенно понравилось решение лестничных клеток. 
+                                Кружки вообще очень стильные!</p>
+                        </div></div>
+                    <div class="review">
+                        <div class="review-image-wrapper">
+                            <img src="img/Ellipse-3.png" alt="third person" width="50px" height="50">
+                        </div>
+                        <div class="review-info">
+                            <p class="review-name">Светлана</p>
+                            <p class="review-text">Очень нравится, что в городе развиваются такие проекты. Надеюсь, такие проекты скоро будут не только в частных домах, но и в кафе, музеях, театрах.
+                                Я бы сходила!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </main>
